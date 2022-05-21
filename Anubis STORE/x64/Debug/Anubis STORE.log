@@ -1,0 +1,12 @@
+﻿  Main.cpp
+  Menu.cpp
+  Service.cpp
+C:\DEV\Visual Studio Projects\Anubis STORE\Anubis STORE\Service.cpp(73,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\DEV\Visual Studio Projects\Anubis STORE\Anubis STORE\Service.cpp(82,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\DEV\Visual Studio Projects\Anubis STORE\Anubis STORE\Service.cpp(164,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Ticket.cpp
+  User.cpp
+  Wallet.cpp
+  Generating Code...
+C:\DEV\Visual Studio Projects\Anubis STORE\Anubis STORE\Service.cpp(137): warning C4715: 'Service::returnSumByIndex': not all control paths return a value
+  Anubis STORE.vcxproj -> C:\DEV\Visual Studio Projects\Anubis STORE\x64\Debug\Anubis STORE.exe
