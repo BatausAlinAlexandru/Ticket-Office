@@ -10,17 +10,10 @@
 
 int main() {
 
-    /*Tests tests;
-    Tests::allTests();*/
-
-
     Repository<Ticket> repo("C:/Users/batau/Desktop/AnubisSTORE/Database/Tickets.txt");
     Repository<Wallet> appwalletRepo("C:/Users/batau/Desktop/AnubisSTORE/Database/app-wallet.txt");
 
-
-
     Service service(repo, appwalletRepo);
-
 
     Wallet appwallet;
     Wallet clientwallet;
@@ -29,5 +22,4 @@ int main() {
 
     Menu menu(service, user, appwallet, clientwallet);
     menu.runUI();
-
 }

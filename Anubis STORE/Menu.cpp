@@ -60,9 +60,11 @@ void Menu::printTicketMessage() {
     std::cout << std::endl;
 };
 
-void Menu::printWalletMenu() {
+void Menu::printWalletMenu(){
     std::cout << std::endl;
-
+    
+    if (this->LOGGED != 1)
+        std::cout << "FOR SOME FEATURES YOU NEED TO BE LOGGED !!!" << std::endl;
     std::cout << "**************************************************" << std::endl;
     if (this->LOGGED) {
         std::cout << "*    add                                         *" << std::endl;
@@ -201,7 +203,7 @@ void Menu::runWalletUI() {
 std::vector<std::string> Menu::splitStringTicket(const std::string & line) {
     std::vector<std::string> vector; // This is the vector returned
 
-
+    
     std::ofstream fout("C:/Users/batau/Desktop/AnubisSTORE/Database/MenuSplitCommand.txt");
     fout << line;
     fout.close();
